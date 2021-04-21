@@ -1,13 +1,17 @@
 <resources>
-
     <string name="app_name">DamKoto</string>
     <string name="open">op</string>
     <string name="close">cl</string>
     <string name="home">home</string>
-    <string name="about">about</string>
-    <string name="contract">contract</string>
-    <string name="share">share</string>
-    <string name="rating">rating</string>
-    <string name="rate_us">rate_us</string>
-
+    <string name="about">About</string>
+    <string name="Gadgets">All Gadgets</string>
+    <string name="shop">All Shops</string>
+    <string name="Admin">Admin Panal</string>
+    <string name="report_about">Report And About</string>
+    <string name="rate_us">Report a Bug</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

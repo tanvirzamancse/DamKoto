@@ -54,16 +54,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (id){
             case R.id.Home:
                 Toast.makeText(this, "Home", Toast.LENGTH_LONG).show();
-//                Intent intent=new Intent(getApplicationContext(),HomePage.class);
-//                startActivity(intent);
+                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent);
                 break;
-            case R.id.About:
+            case R.id.gedgets:
                 Toast.makeText(this, "ClassUp helps students(university, college, school)" +
                         " manage classes, organize notes, track tasks, and communicate with classmates." +
                         " - Easily manage classes(courses, lesson, lectures) by searching for and" +
                         " adding classes entered by other users.", Toast.LENGTH_LONG).show();
                 break;
-            case R.id.Contact:
+            case R.id.shop:
                 Toast.makeText(this, "Name: Md.Musaddikul islam Mishon\n"+
                         "Id: 171-15-9127\n" +
                         "Email: musaddikul15-9127@diu.edu.bd\n" +
@@ -75,13 +75,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         "Id: 171-15-9161\n" +
                         "Email: manira15-9161@diu.edu.bd\n", Toast.LENGTH_LONG).show();
                 break;
-            case R.id.Share:
-                Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps");
-                startActivity(Intent.createChooser(shareIntent, "Share..."));
+            case R.id.adminpanal:
+                Intent ii=new Intent(getApplicationContext(),AdminLogin.class);
+                startActivity(ii);
                 break;
-            case R.id.Rating:
+            case R.id.About:
                 Uri uri=Uri.parse("https://play.google.com/store/apps");
                 Intent i=new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(i);

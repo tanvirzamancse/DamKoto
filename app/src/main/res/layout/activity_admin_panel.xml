@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4fa2d2"
+    android:id="@+id/rec"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolberID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0560CC"
+        >
+
+        <TextView
+            android:id="@+id/textID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:layout_marginStart="90sp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#4fa2d2"
+        app:tabTextColor="@android:color/white">
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

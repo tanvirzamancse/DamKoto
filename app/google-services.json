@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153295866618",
+    "project_id": "damkoto-8d312",
+    "storage_bucket": "damkoto-8d312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153295866618:android:11bc5b0fb4c11995535743",
+        "android_client_info": {
+          "package_name": "com.damkoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153295866618-pg87t84uo7le9u4titf6jhmige9flkoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVZ7zcQlYJRQnAiO7BPTZu2mInvMq04UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153295866618-pg87t84uo7le9u4titf6jhmige9flkoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
